@@ -2,7 +2,7 @@ body{
   margin: 0; text-align: center;
   font-family: sans-serif; color:#6A8518;
 }
-img {vertical-align: middle;}
+img {vertical-align: middle; }
 
 @media(min-width:730px){
   ul{
@@ -37,9 +37,10 @@ h3{
   font-weight: bold;
   font-size:20px;
 }
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+#data{
+  display: inline;
+  font-weight: bold;
+  background-color: #6A8518;
+  font-size: 13px;
+  color: white;
 }
