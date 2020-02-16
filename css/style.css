@@ -1,17 +1,17 @@
-@media(min-width:700px){
+@media(min-width:720px){
   ul{
     margin-right: 100px;
   }
-  h1{
-    margin-left: 50px; line-height: 30px; color: white; float: left;
+  #logo{
+    margin-left: 50px; margin-top: 0; float: left;
   }
   header{
-    height: 75px; background-color: white; border-bottom: 1px solid;
+    height: 90px; background-color: white; border-bottom: 1px solid;
     position: fixed; width: 100%; z-index: 9999; top:0; left:0;
   }
   .menu{ float: right;}
   .menu li{ float: left;}
-  .menu a{ line-height: 50px; padding:0 50px; display: block;}
+  .menu a{ line-height: 55px; padding:0 50px; display: block;}
   .wrapper{width:100%; margin: 0 auto;}
 }
 a{
