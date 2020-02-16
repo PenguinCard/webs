@@ -5,13 +5,15 @@
     <title>비전한울</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
       <div class="wrapper">
         <h1 id="logo"><a href="index.html"><img src="img/logo.jpg" height="90px"></a></h1>
         <nav>
-          <ul style="list-style:none; "class="menu">
+          <ul style="list-style:none;" class="menu">
+            <li><button type="button" id="btn" onclick="menuHandle();"><img src="img/menu.png" height="32px" width="32px"></button></li>
             <li><a href="#about">about</a></li>
             <li><a href="#services">services</a></li>
             <li><a href="#contact">contact</a></li>
@@ -22,7 +24,6 @@
     <img src="img/grass1.jpg" width="65%">
     <div id="about"></div>
     <p style="margin-top:120px;"></p>
-
     <h2>ABOUT US</h2>
     <h3>COMPANY PROFILE</h3>
     <div id="txt"><p>자세한 사항은 회사소개서를 통해서 확인하실 수 있습니다</p></div>
@@ -98,6 +99,10 @@
     <p style="margin-left: 150px; font-size: 25px; text-align: left;">찾아오시는 길</p>
     <p style="margin-top:35px;"></p>
     <table style="margin-left:150px;" cellpadding="0" cellspacing="0" width="462">
-      <tr> <td style="border:1px solid #cecece;"><a href="https://v4.map.naver.com/?searchCoord=3bf13ec03f0c4076b369d7b0adfe7f5a79b3ef82a43bb6b5f76d6a9f2b075d57&query=67mE7KCE7ZWc7Jq4&tab=1&lng=d2ddce0cae68c275813a6c5c7e12431f&mapMode=0&mpx=f9147bbcb07046b2053b5e468843d0eea65342fef2c3cac3ef3870c51b774209963a77b5d8dc84ec6d71fe4d67422a0ccdeffbac8c0a7494ed680eeb2a3fe9db&lat=69ee0ee4632d45650a3a90380bd53059&dlevel=12&enc=b64&menu=location" target="_blank"><img src="http://prt.map.naver.com/mashupmap/print?key=p1581848898471_-128569077" width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a></td> </tr> <tr> <td> <table cellpadding="0" cellspacing="0" width="100%"> <tr> <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="font-family: tahoma; font-size: 11px; color:#666;">2020.2.16</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="https://v4.map.naver.com/?searchCoord=3bf13ec03f0c4076b369d7b0adfe7f5a79b3ef82a43bb6b5f76d6a9f2b075d57&query=67mE7KCE7ZWc7Jq4&tab=1&lng=d2ddce0cae68c275813a6c5c7e12431f&mapMode=0&mpx=f9147bbcb07046b2053b5e468843d0eea65342fef2c3cac3ef3870c51b774209963a77b5d8dc84ec6d71fe4d67422a0ccdeffbac8c0a7494ed680eeb2a3fe9db&lat=69ee0ee4632d45650a3a90380bd53059&dlevel=12&enc=b64&menu=location" target="_blank">지도 크게 보기</a> </td> <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="https://www.navercorp.com" target="_blank">NAVER Corp.</a></span> </td> </tr> </table> </td> </tr> </table>
+      <tr> <td style="border:1px solid #cecece;"><a href="https://v4.map.naver.com/?searchCoord=3bf13ec03f0c4076b369d7b0adfe7f5a79b3ef82a43bb6b5f76d6a9f2b075d57&query=67mE7KCE7ZWc7Jq4&tab=1&lng=d2ddce0cae68c275813a6c5c7e12431f&mapMode=0&mpx=f9147bbcb07046b2053b5e468843d0eea65342fef2c3cac3ef3870c51b774209963a77b5d8dc84ec6d71fe4d67422a0ccdeffbac8c0a7494ed680eeb2a3fe9db&lat=69ee0ee4632d45650a3a90380bd53059&dlevel=12&enc=b64&menu=location" target="_blank"><img src="http://prt.map.naver.com/mashupmap/print?key=p1581848898471_-128569077" width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a></td> </tr> <tr> <td> <table cellpadding="0" cellspacing="0" width="100%"> <tr> <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="font-family: tahoma; font-size: 11px; color:#666;">2020.2.16</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="https://v4.map.naver.com/?searchCoord=3bf13ec03f0c4076b369d7b0adfe7f5a79b3ef82a43bb6b5f76d6a9f2b075d57&query=67mE7KCE7ZWc7Jq4&tab=1&lng=d2ddce0cae68c275813a6c5c7e12431f&mapMode=0&mpx=f9147bbcb07046b2053b5e468843d0eea65342fef2c3cac3ef3870c51b774209963a77b5d8dc84ec6d71fe4d67422a0ccdeffbac8c0a7494ed680eeb2a3fe9db&lat=69ee0ee4632d45650a3a90380bd53059&dlevel=12&enc=b64&menu=location" target="_blank">지도 크게 보기</a> </td> <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="https://www.navercorp.com" target="_blank">NAVER Corp.</a></span> </td> </tr> </table> </td> </tr>
+    </table>
+    <p style="margin-top:200px;"></p>
+    <footer>
+    </footer>
   </body>
 </html>
