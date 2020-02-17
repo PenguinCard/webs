@@ -1,15 +1,36 @@
-
-.menu a{display: none; font-size: 12px}
-
-#map{
-  text-align: center;
-}
-
 body{
   margin: 0; text-align: center;
   font-family: sans-serif; color:#6A8518;
 }
-
+a{
+  text-decoration: none; color:#6A8518;
+}
+td{
+  text-align: center;
+  width:33%
+}
+h2{
+  font-size: 40px;
+  text-align: center;
+}
+h3{
+  font-size: 25px;
+}
+header{
+  height: 90px; background-color: white; border-bottom: 1px solid;
+  position: fixed; width: 100%; z-index: 9999; top:0; left:0;
+}
+footer{
+  height: 270px; background-color: black; z-index: 9999;
+}
+.wrapper{width:100%; margin: 0 auto;}
+.menu li{ background-color: rgba(255, 255, 255, 0.5); text-align: center;
+  line-height: 55px; padding:0 40px;}
+.menu a{display: none; font-size: 12px}
+.menu{ float: right;}
+#logo{
+  margin-left: 50px; margin-top: 0; float: left;
+}
 #btn{
     padding: 0;
     margin-top: 15px;
@@ -22,36 +43,6 @@ body{
     width: 32px;
     cursor: pointer;
     position: static;
-}
-.menu li{ background-color: rgba(255, 255, 255, 0.5); text-align: center;}
-
-#logo{
-  margin-left: 50px; margin-top: 0; float: left;
-}
-header{
-  height: 90px; background-color: white; border-bottom: 1px solid;
-  position: fixed; width: 100%; z-index: 9999; top:0; left:0;
-}
-footer{
-  height: 270px; background-color: black; z-index: 9999;
-}
-.wrapper{width:100%; margin: 0 auto;}
-.menu li{ line-height: 55px; padding:0 40px; }
-.menu{ float: right;}
-a{
-  text-decoration: none; color:#6A8518;
-}
-td{
-  text-align: center;
-  width:33%
-}
-
-h2{
-  font-size: 40px;
-  text-align: center;
-}
-h3{
-  font-size: 25px;
 }
 #txt{
   font-weight: bold;
