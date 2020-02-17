@@ -5,21 +5,12 @@ body{
   margin: 0; text-align: center;
   font-family: sans-serif; color:#6A8518;
 }
-img {vertical-align: middle; }
 
-@media(min-width:730px){
-  ul{
-    margin-right: 100px;
-  }
-  .menu a{display: block; font-size: 13px}
-  .menu li{ float: left; }
-  #btn{display: none;}
-}
-@media(max-width:729){
-  #btn{
+#btn{
+    padding: 0;
     margin-top: 15px;
-    margin-bottom: 20px;
-    margin-right: 13px;
+    margin-left: 6px;
+    margin-right: 7px;
     display: inline;
     border: none;
     background-color: rgba(255, 255, 255, 0);
@@ -27,9 +18,9 @@ img {vertical-align: middle; }
     width: 32px;
     cursor: pointer;
     position: static;
-  }
-  .menu li{ background-color: rgba(255, 255, 255, 0.5); }
 }
+.menu li{ background-color: rgba(255, 255, 255, 0.5); text-align: center;}
+
 #logo{
   margin-left: 50px; margin-top: 0; float: left;
 }
