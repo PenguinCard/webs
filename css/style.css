@@ -1,6 +1,10 @@
 
 .menu a{display: none; font-size: 12px}
 
+#map{
+  text-align: center;
+}
+
 body{
   margin: 0; text-align: center;
   font-family: sans-serif; color:#6A8518;
@@ -38,11 +42,13 @@ a{
   text-decoration: none; color:#6A8518;
 }
 td{
+  text-align: center;
   width:33%
 }
 
 h2{
   font-size: 40px;
+  text-align: center;
 }
 h3{
   font-size: 25px;
