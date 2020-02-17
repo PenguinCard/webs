@@ -29,7 +29,7 @@ footer{
 .menu a{display: none; font-size: 12px}
 .menu{ float: right;}
 #logo{
-  margin-left: 50px; margin-top: 0; float: left;
+  margin-left: 50px; margin-top: 0; float: left; background-color: rgba(255, 255, 255, 0);
 }
 #btn{
     padding: 0;
